@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: rgb(242, 250, 255);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.mainTitle{
+  text-align: center;
+  margin-bottom: 0px; 
+  font-size: 40px;
+}
+hr{
+  width: 100px; 
+  border: 2px solid blue;
+}
+.tourMain{
+  width: 600px; 
+  margin: auto;
+  background-color: white;
+  border-radius: 5px; 
+  margin-bottom: 40px; 
+  box-shadow: 1px 1px 1px 1px grey
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.tourImg{
+  width: 100%;
+  border-radius: 5px 5px 0 0;
 }
+
+
+.btn{
+  color: red;
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border: 1px red solid;
+  border-radius: 5px;
+} 
